@@ -1,0 +1,144 @@
+.products-main-bg {
+  width: 100vw;
+}
+
+.products-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 22px;
+  padding: 12px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .products-list {
+    max-width: 100%;
+    margin: 20px;
+  }
+}
+
+.scale-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+}
+
+.products-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 12px;
+  margin-right: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+}
+
+.search-container-title {
+  font-family: "poppins";
+  font-size: 13px;
+  font-weight: 500;
+  color: #533ef0;
+}
+
+.kg-selection {
+  font-family: "poppins";
+  font-size: 16px;
+  color: #533ef0;
+  outline: none;
+  border: 1px solid #533ef0;
+  border-radius: 2px;
+}
+
+.kg-label {
+  font-family: "poppins";
+}
+
+.nav-position {
+  position: static;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.products-list-container {
+  width: 100vw;
+  display: flex;
+}
+
+.search-line {
+  width: 90%;
+  display: flex;
+  align-self: center;
+  margin-left: 72px;
+}
+
+.search-input-container {
+  width: 285px;
+  height: 32px;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 12px;
+  border: 1px solid #533ef0;
+}
+
+.search-container input {
+  width: 80%;
+  height: 100%;
+  font-family: "poppins";
+  font-size: 14px;
+  color: #282729;
+  outline: none;
+}
+
+.icon-container {
+  background-color: #533ef0;
+  width: 45px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+@media screen and (width > 768px) {
+  .search-input-container {
+    width: 445px;
+  }
+  .search-container input {
+    font-size: 18px;
+  }
+  .icon-container {
+    width: 65px;
+  }
+
+  .search-container-title {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-container-title {
+    display: none;
+  }
+}

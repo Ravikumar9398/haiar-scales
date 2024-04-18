@@ -1,0 +1,232 @@
+.product-list-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-details-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.details-container {
+  width: 100%;
+  margin-top: 22px;
+}
+
+@media screen and (width > 767px) {
+  .details-container {
+    margin-top: 0px;
+  }
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b1bbda;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.upper-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@media screen and (width > 767px) {
+  .upper-container {
+    flex-direction: row;
+    gap: 22px;
+    margin-bottom: 22px;
+  }
+}
+
+.big-image {
+  width: 80%;
+  min-width: 345px;
+  height: 345px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.image-title {
+  font-family: "Roboto";
+  font-weight: 800;
+  color: rgb(13, 16, 219);
+  font-size: 19px;
+}
+
+@media screen and (width > 767px) {
+  .image-title {
+    font-size: 32px;
+  }
+}
+
+.category-scale {
+  font-family: "Poppins";
+  color: #202020;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+@media screen and (width > 767px) {
+  .category-scale {
+    font-size: 18px;
+  }
+}
+
+.description {
+  color: #646464;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 22px;
+  padding-top: 12px;
+}
+
+.capacity-container {
+  width: 100%;
+  min-width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 2px solid rgb(87, 90, 256);
+  height: 42px;
+}
+
+@media screen and (width > 767px) {
+  .capacity-container {
+    width: 100%;
+    min-width: 545px;
+  }
+}
+
+.capacity-list {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.label-container {
+  background-color: rgb(87, 90, 256);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.label {
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+}
+
+.capacity-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.scales-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.cap {
+  font-size: 8px;
+}
+
+@media screen and (width > 767px) {
+  .cap {
+    font-size: 9px;
+  }
+}
+
+.ordered-button {
+  background-color: rgb(87, 90, 256);
+  color: white;
+  width: 80vw;
+  height: 32px;
+  font-family: "Roboto", "san-serif";
+  border-radius: 4px;
+}
+
+@media screen and (width > 768px) {
+  .ordered-button {
+    width: 545px;
+  }
+}
+
+.pop-img-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.9);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.pop-img-container button {
+  position: relative;
+  top: 0;
+  left: 65%;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+  z-index: 100;
+
+  margin-top: 12px;
+}
+
+.pop-img-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 550px;
+  height: 450px;
+  background-color: #fff;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .pop-img-container img {
+    width: 85%;
+  }
+  .pop-img-container button {
+    width: 95%;
+    font-size: auto;
+    margin-left: 0px;
+    left: 50;
+  }
+}
+
+.pop-img-container-display {
+  display: none;
+}

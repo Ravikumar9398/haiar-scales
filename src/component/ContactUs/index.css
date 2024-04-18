@@ -1,0 +1,136 @@
+.contact-main-container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactus-container {
+  width: 100vw;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background-color: #ededf1;
+}
+
+@media screen and (width < 767px) {
+  .contactus-container {
+    flex-direction: column;
+    gap: 22px;
+    padding-bottom: 52px;
+  }
+}
+
+.contact-info {
+  width: 100vw;
+  max-width: 445px;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(30, 31, 38, 1) 100%
+  );
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 22px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 34px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media screen and (width < 768px) {
+  .contact-info {
+    margin-left: 64px;
+  }
+}
+
+.contactus-heading {
+  font-family: "Roboto";
+  color: white;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.color {
+  font-family: "Poppins";
+  color: white;
+  font-size: 1em;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.card2 {
+  border: 2px solid #0f007e;
+
+  width: 100%;
+  max-width: 345px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 22px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media screen and (width < 768px) {
+  .card2 {
+    width: 100%;
+    max-width: 445px;
+  }
+}
+
+.color2 {
+  font-family: "Poppins";
+  color: #0f007e;
+}
+
+.card2-head {
+  font-family: "Roboto";
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.address-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.info-container2 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 22px;
+  margin-bottom: 32px;
+}
+
+.contactus-below-des {
+  font-family: "Poppins";
+  color: gray;
+  font-size: 0.9em;
+}
+
+.sub-heading2 {
+  font-family: "Poppins";
+  font-size: 1.3em;
+  font-weight: 600;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 12px;
+  color: #1c1b2b;
+}
